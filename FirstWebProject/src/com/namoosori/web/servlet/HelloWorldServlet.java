@@ -25,7 +25,7 @@ public class HelloWorldServlet extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		//
+		
 		//post 방식으로 값을 전달하는 경우에 request객체 바디 부분을 통해 값이 전달되기 때문에
 		// request 객체의 인코딩을 맞춰주면 한글이 깨지는 문제를 해결할 수 있음. 
 		req.setCharacterEncoding("utf-8");
