@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>숫자야구</title>
+
+<link href="./css/baseball.css" rel="stylesheet" type="text/css"/>
+<script src="./js/baseball.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="top">
+		<div id=inning>
+			<input id="inning_num" type="text" disabled="disabled">
+			회 / 총 10 회	
+		</div>
+		<div id="input">
+			<button id="clear">clear</button> 
+			<input id="input1" class="input" type="text" disabled="disabled"> 
+			<input id="input2" class="input" type="text" disabled="disabled"> 
+			<input id="input3" class="input" type="text" disabled="disabled">
+		</div>
+	</div>
+<div class="left">
+	<div class="first">
+		<button id="input_btn1" class="input_btn" value="1">1</button> 
+		<button id="input_btn2" class="input_btn" value="2">2</button> 
+		<button id="input_btn3" class="input_btn" value="3">3</button>
+	</div>
+	<div class="second">
+		<button id="input_btn4" class="input_btn" value="4">4</button> 
+		<button id="input_btn5" class="input_btn" value="5">5</button>
+		<button id="input_btn6" class="input_btn" value="6">6</button>
+	</div>
+	<div class="third">
+		<button id="input_btn7" class="input_btn" value="7">7</button>
+		<button id="input_btn8" class="input_btn" value="8">8</button>
+		<button id="input_btn9" class="input_btn" value="9">9</button>
+	</div>
+</div>
+	
+<div class="right">
+	<textarea id="result" rows="15" cols="30" disabled="disabled"></textarea>
+	<button id="stop">stop</button>
+	<button id="restart">restart</button>
+	<button id="cheat">cheat</button>
+	<input type="text" id="clock">
+	<button id="start">start</button>
+</div>
+</body>
+</html>
