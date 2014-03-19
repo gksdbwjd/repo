@@ -12,9 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/hello") // 여러개인 경우는 {"/hello", "/bye", "/goodmorning"} 과 같이 괄호로 감싸주면 됨.
 public class HelloWorldServlet extends HttpServlet{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 5742628710116017048L;
 
 	@Override
